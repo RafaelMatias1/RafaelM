@@ -5,6 +5,9 @@ body {
     height: 200%;
     margin: 0;
 }
+
+
+                                            /*Area de scroll lateral*/
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -18,11 +21,17 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
+                                            /*Area de scroll lateral*/
+
+                                            /*fundo da tela*/
 #container {
     height: 100%;
     width: 100%;
     background-color: #D9D9D9;
 }
+                                            /*fundo da tela*/
+
+                                            /*apresentacao de quem eu sou*/
 #apresentacao {
     height: 5%;
     width: 100%;
@@ -67,21 +76,36 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(15px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
 }
 .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
 }
 .hamburger-menu.active .bar:nth-child(3) {
-    transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
 }
 #overlay-menu {
     position: fixed;
     top: 10%;
     left: 2%;
     width: 15%;
-    height: 15%;
-    background-color: #D9D9D9;
+    height: 18%;
+    background-color: #d9d9d9a2;
+    border-radius: 10px;
+    padding: 1%;
+    display: none;
+    border: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+
+}
+#overlay-menu:hover {
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    width: 15%;
+    height: 18%;
+    background-color: #858585;
     border-radius: 10px;
     padding: 1%;
     display: none;
@@ -103,6 +127,9 @@ body {
     color: rgb(0, 0, 0);
     font-size:x-large;
 }
+                                            /*apresentacao de quem eu sou*/ 
+
+                                            /*home pricipal da tela*/
 #home {
     height: 45%;
     width: 100%;
@@ -168,6 +195,9 @@ body {
 #botao:hover {
     background-color: #45a049;
 }
+                                            /*home pricipal da tela*/
+
+                                            /*informacoes sobre mim*/
 #info {
     height: 50%;
     width: 100%;
@@ -233,7 +263,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px black;
@@ -277,7 +307,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px black;
@@ -292,13 +322,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px black;
     background-color: #D9D9D9;
 
 }
+                                            /*informacoes sobre mim*/
+
+                                            /*trabalhos que eu ja fiz */
 #trabalho {
     height: 50%;
     width: 100%;
@@ -355,7 +390,7 @@ body {
     height: 80%;
     width: 90%;
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,7 +403,9 @@ body {
     height: 80%;
     width: 97.5%;
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,3 +413,4 @@ body {
     background-color: #98BC6A;
 
 }
+                                                /*trabalhos que eu ja fiz */
