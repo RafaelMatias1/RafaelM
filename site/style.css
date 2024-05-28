@@ -35,10 +35,17 @@ body {
     align-items: center;
     position: relative;
 }
-h1 {
+#rafa {
     margin: 0;
     padding: 1%;
+    font-size: 300%;
     flex-grow: 1;
+    text-align: center;
+}
+#desc {
+    margin: 0;
+    padding: 1%;
+    font-size: 300%;
     text-align: center;
 }
 .hamburger-menu {
@@ -192,15 +199,21 @@ h1 {
     height: 80%;
     width: 100%;
     display: flex;
+    font-size: 202px;
 
+}
+#infNone{
+
+    font-size: xx-large;
+    
 }
 #bloco_esquerda{
 
     height: 100%;
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
 
 }
 #bloco_direita{
@@ -208,8 +221,23 @@ h1 {
     height: 100%;
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
+
+}
+#bloco_co{
+
+    height: 5%;
+    width: 80%;
+    margin-bottom: 5%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    background-color: #D9D9D9;
 
 }
 #inf_direita{
@@ -237,10 +265,114 @@ h1 {
     height: 80%;
     width: 100%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#nomeExp{
+
+    height: 5%;
+    width: 50%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    background-color: #D9D9D9;
+
+}
+#descExp{
+
+    height: 10%;
+    width: 80%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    background-color: #D9D9D9;
 
 }
 #trabalho {
     height: 50%;
     width: 100%;
+    margin: 0%;
     background-color: #D9D9D9;
-}    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#traTopo{
+
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+#trabalho1{
+
+    height: 22%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+#risco{
+
+    font-size: 100px;
+
+}
+#traNome{
+
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#traDescricao{
+
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#blocoTrabalhoEsquerdo{
+
+    height: 80%;
+    width: 90%;
+    border-radius: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    background-color: #98BC6A;
+
+}
+#blocoTrabalhoDireito{
+
+    height: 80%;
+    width: 97.5%;
+    border-radius: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    background-color: #98BC6A;
+
+}
